@@ -1,0 +1,66 @@
+<!--I got this code from w3schools-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>gamesrc</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id ="navbar">
+<button onclick="location.href='index.html'">Home</button>
+<button onclick="location.href='about.html'">About</button>
+<button onclick="location.href='games.html'">Games</button>
+<button onclick="location.href='contact.html'">Contact</button>
+<button onclick="location.href='forum.html'">Forum</button>
+<button onclick="location.href='projects.html'">Other Projects</button>
+<button onclick="location.href='implementation.html'">Implementation</button>
+<div id="logo">
+  <img src="elements/logo.png" alt="logo" vspace="50">
+</div>
+</div>
+<div id = "content" class="text">
+
+
+
+<div id="about-list"  class="box">
+<h2> What is gamesrc?</h2>
+
+<ul>
+<li>A site about <b>game development</b></li>
+<li>A forum to discuss games</li>
+<li>Play game submissions by members</li>
+</ul>
+</div>
+
+<div id = "updates"  class="box">
+<h2> Latest updates</h2>
+<h3>10/10/18 </h3>
+<h3> Under Construction</h3>
+<p>Welcome to the gamesrc. The site has just been launched and will be updated shortly. <br>If you have any enquiries or would like to contribute, please contact us via the contact page.</p>
+
+</div>
+
+<!-- You can display webpages within webpages using iframe -->
+
+<div id = "newsletter"  class="box">
+<h2> Sign up for our newsletter<h2>
+  <p><span class="error">* required field</span></p>
+<form method="post" action="validate.php">
+      Name: <input type="text" name="name">
+    <span class="error">* <?php echo $nameErr;?></span>
+    <br><br>
+    E-mail: <input type="text" name="email">
+    <span class="error">* <?php echo $emailErr;?></span>
+    <br><br>
+    <input type="submit" name="submit" value="Submit">
+  </form>
+</div>
+
+</div>
+
+</body>
+
+<footer>
+Copyright: Gamesrc Inc
+</footer>
+</html>
