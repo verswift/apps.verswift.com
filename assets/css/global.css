@@ -1,0 +1,20 @@
+.bg-white.sticky-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#page-top {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  background-blend-mode: multiply;
+}
+
+#transparent-footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+

@@ -1,0 +1,31 @@
+@media screen and (min-width: 640px) {
+  .row.text-center.d-xl-flex.justify-content-xl-center.align-items-xl-center {
+    width: 50% !important;
+  }
+}
+
+.col.d-sm-flex.d-xl-flex.justify-content-sm-center.align-items-sm-center.justify-content-xl-center.align-items-xl-center.col-auto.btn.clipboard {
+  /*background-color: grey;*/
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.075)!important;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  /*color: #fff;*/
+  /*background-color: #4CAF50;*/
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.col.d-sm-flex.d-xl-flex.justify-content-sm-center.align-items-sm-center.justify-content-xl-center.align-items-xl-center.col-auto.btn.clipboard:active {
+  /*background-color: #3e8e41;*/
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#clipboard {
+  border: none;
+}
+

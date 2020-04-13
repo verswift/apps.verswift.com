@@ -1,0 +1,14 @@
+.container.shadow {
+  border-radius: 20px;
+}
+
+.text-center.app-label {
+  font-size: 80%;
+  font-family: Quicksand, sans-serif;
+  margin-top: 20px;
+}
+
+.img-fluid.shadow-sm {
+  border-radius: 20%;
+}
+

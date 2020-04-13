@@ -1,65 +1,233 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>verswift</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Verswift | All-In-One Progressive Web App</title>
+    <meta name="theme-color" content="rgb(255,255,255)">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="description" content="Lots of web apps for solving everyday problems whether big or small. Add to your homescreen to use them offline. 
+">
+    <meta property="og:image" content="assets/img/verswift-logo.png">
+    <meta name="twitter:image" content="assets/img/verswift-logo.png">
+    <meta name="twitter:title" content="Verswift | All-In-One Progressive Web App ">
+    <meta name="twitter:description" content="Lots of web apps for solving everyday problems whether big or small. Add to your homescreen to use them offline. 
+">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/verswift-logo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/verswift-logo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/verswift-logo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/verswift-logo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/verswift-logo.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anaheim">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Condensed">
+    <link rel="stylesheet" href="assets/css/Europa.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/app-drawer.css">
+    <link rel="stylesheet" href="assets/css/app-navbar.css">
+    <link rel="stylesheet" href="assets/css/apps.css">
+    <link rel="stylesheet" href="assets/css/apps/ads.css">
+    <link rel="stylesheet" href="assets/css/apps/bookmark-cards.css">
+    <link rel="stylesheet" href="assets/css/apps/calculator.css">
+    <link rel="stylesheet" href="assets/css/apps/password-generator.css">
+    <link rel="stylesheet" href="assets/css/apps/random-number.css">
+    <link rel="stylesheet" href="assets/css/apps/spotify-preview.css">
+    <link rel="stylesheet" href="assets/css/apps/text-faces.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/google-style-text-input%20(text-faces).css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156024103-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156024103-1');
+</script>
 </head>
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-    color: grey;
 
-}
-
-.bgimg {
-    background-image: url('/elements/background.jpg');
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: grey;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-}
-
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
-
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
-
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-hr {
-    margin: auto;
-    width: 40%;
-}
-</style>
-<body>
-
-<div class="bgimg">
-  <div class="topleft">
-    <p><img src ="elements/logo.png" style="width:250px;height:50px;"></p>
-  </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-  </div>
-  <div class="bottomleft">
-  </div>
+<body id="page-top">
+    <div id="wrapper-1">
+        <div class="d-flex flex-column" id="content-wrapper-1" style="background-color: rgb(255,255,255);">
+            <div id="content-1">
+                <nav class="navbar navbar-light navbar-expand sticky-top shadow d-xl-flex justify-content-xl-center align-items-xl-center mb-4 topbar static-top" style="height: 72.5px;background-color: rgb(255,255,255);">
+                    <div class="container-fluid">
+                        <h1 class="text-center mb-0" style="padding: 20px;font-size: 29px;font-family: Europa;color: rgb(158,158,158);"><strong>verswift</strong></h1>
+                        <ul class="nav navbar-nav flex-nowrap ml-auto">
+                            <li class="nav-item dropdown no-arrow" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle d-xl-flex align-items-xl-center nav-link" data-toggle="dropdown" aria-expanded="false" href="https://verswift.com"><img class="rounded shadow-sm img-profile" src="assets/img/verswift-transparent.png" style="background-color: #ffffff;width: 50px;"></a>
+                                    <div
+                                        class="dropdown-menu shadow-sm dropdown-menu-right animated--grow-in" role="menu"><a class="dropdown-item" role="presentation" href="http://verswift.com/">Apps</a><a class="dropdown-item" role="presentation" href="https://verswift.com/blog">Blog</a><a class="dropdown-item" role="presentation" href="https://verswift.com/contact">Contact</a>
+                                        <a
+                                            class="dropdown-item" role="presentation" href="https://verswift.com/about">About</a>
+                                </div>
+                    </div>
+                    </li>
+                    </ul>
+            </div>
+            </nav>
+            <section id="filtr-gallery-1" style="background-color: rgb(255,255,255);">
+                <div class="container shadow" style="padding-top: 20px;padding-bottom: 20px;">
+                    <h1 class="text-center" style="font-family: Anaheim, sans-serif;">APPS</h1>
+                    <p class="text-center" style="font-family: Anaheim, sans-serif;">Click An App To Launch It</p>
+                    <div class="row d-md-flex" style="padding: 20px;">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column align-items-md-center align-items-xl-center filtr-item" data-category="1, 3" style="padding: 10px;">
+                            <a class="d-xl-flex align-items-xl-center" href="http://verswift.com/calculator">
+                                <div><img class="img-fluid shadow" data-caption="<strong>Image description</strong><br><em>Lorem ipsum</em>" alt="image" src="assets/img/calculator.png" style="background-color: #ffffff;border-radius: 20%;"></div>
+                            </a>
+                            <h1 class="text-center app-label">Calculator</h1>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column align-items-md-center align-items-xl-center filtr-item" data-category="1, 3" style="padding: 10px;">
+                            <a class="d-xl-flex align-items-xl-center" href="http://verswift.com/password-generator">
+                                <div><img class="img-fluid shadow" data-caption="<strong>Image description</strong><br><em>Lorem ipsum</em>" alt="image" src="assets/img/password-generator.png" style="background-color: #ffffff;border-radius: 20%;"></div>
+                            </a>
+                            <h4 class="text-center app-label">Password Generator</h4>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column align-items-md-center align-items-xl-center filtr-item" data-category="1, 3" style="padding: 10px;">
+                            <a class="d-xl-flex align-items-xl-center" href="http://verswift.com/random-number">
+                                <div><img class="img-fluid shadow" data-caption="<strong>Image description</strong><br><em>Lorem ipsum</em>" alt="image" src="assets/img/random-number.png" style="background-color: #ffffff;border-radius: 20%;"></div>
+                            </a>
+                            <h4 class="text-center app-label">Random Number Generator</h4>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column align-items-md-center align-items-xl-center filtr-item" data-category="1, 3" style="padding: 10px;">
+                            <a class="d-xl-flex align-items-xl-center" href="http://verswift.com/spotify-preview">
+                                <div><img class="img-fluid shadow" data-caption="<strong>Image description</strong><br><em>Lorem ipsum</em>" alt="image" src="assets/img/spotify-preview.png" style="background-color: #ffffff;border-radius: 20%;"></div>
+                            </a>
+                            <h1 class="text-center app-label">Spotify Music Preview</h1>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column align-items-md-center align-items-xl-center filtr-item" data-category="1, 3" style="padding: 10px;">
+                            <a class="d-xl-flex align-items-xl-center" href="http://verswift.com/text-faces">
+                                <div><img class="img-fluid shadow" data-caption="<strong>Image description</strong><br><em>Lorem ipsum</em>" alt="image" src="assets/img/text-faces.png" style="background-color: #ffffff;border-radius: 20%;"></div>
+                            </a>
+                            <h4 class="text-center app-label">Text Faces</h4>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column align-items-md-center align-items-xl-center filtr-item" data-category="1, 3" style="padding: 10px;">
+                            <a class="d-xl-flex align-items-xl-center" href="http://verswift.com/bookmark-cards">
+                                <div><img class="img-fluid shadow" data-caption="<strong>Image description</strong><br><em>Lorem ipsum</em>" alt="image" src="assets/img/bookmark-cards.png" style="background-color: #ffffff;border-radius: 20%;"></div>
+                            </a>
+                            <h4 class="text-center app-label">Bookmark Cards</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center d-xl-flex justify-content-xl-center align-items-xl-center" style="padding-bottom: 10px;">
+                <div class="container-fluid text-center d-block d-xl-flex align-content-center align-self-center justify-content-xl-center align-items-xl-center" style="padding: 0;padding-top: 48px;width: 325px;"><!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_pinterest"></a>
+<a class="a2a_button_reddit"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_google_gmail"></a>
+<a class="a2a_button_pocket"></a>
+<a class="a2a_button_telegram"></a>
+<a class="a2a_button_mix"></a>
+<a class="a2a_button_tumblr"></a>
+<a class="a2a_button_blogger"></a>
+<a class="a2a_button_evernote"></a>
+<a class="a2a_button_facebook_messenger"></a>
+<a class="a2a_button_kik"></a>
+<a class="a2a_button_line"></a>
+<a class="a2a_button_vk"></a>
+<a class="a2a_button_wechat"></a>
+<a class="a2a_button_copy_link"></a>
 </div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END --></div>
+            </div>
+            <div class="modal fade" role="dialog" tabindex="-1" id="preview" href="#">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">About</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                        <div class="modal-body">
+                            <p>Verswift is a web app platform that aims to provide lots useful web apps, some simple and some more complex. It is like a Super App. Each app is saved to your device for offline use when opened since it uses Progressive Web
+                                App Technologies. The latest updates, including new apps can be fetched and saved when you use it whilst connected to the internet.&nbsp;</p>
+                            <p>Learn more on our about page&nbsp;<a href="https://verswift.com/about">here</a></p>
+                        </div>
+                        <div class="modal-footer"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center my-auto copyright" id="transparent-footer" style="/*background-color: #676767;*/padding-top: 20px;"><button class="btn btn-primary" id="modal" type="button" data-toggle="modal" data-target="#preview">About</button>
+<style>
+    .btn{
+        border-radius: 20px;
+    }
+</style>
+                <div class="text-center my-auto copyright" style="padding-top: 10px;"><span><a href="https://facebook.com/verswiftapps" style="margin: 10px;"><i class="icon-social-facebook" style="font-size: 25px;color: #4267B2;"></i></a><a href="https://twitter.com/verswiftapps" style="margin: 10px;"><i class="icon-social-twitter" style="font-size: 25px;color: #1da1f2;;"></i></a><a href="https://instagram.com/verswiftapps" style="margin: 10px;"><i class="icon-social-instagram" style="font-size: 25px;color: #c13584;"></i></a></span></div>
+                <div
+                    class="text-center d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <div id="google_translate_element"></div><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+<script type="text/javascript">
+    var duplicate_google_translate_counter = 0;
+function googleTranslateElementInit() {
+  if (duplicate_google_translate_counter == 0) {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+  duplicate_google_translate_counter++;
+}
+</script>
+
+<style type="text/css">iframe.goog-te-banner-frame{ display: none !important;}</style>
+<style type="text/css">body {position: static !important; top:0px !important;}</style>
+
+<style type="text/css">
+.goog-tooltip {
+    display: none !important;
+}
+.goog-tooltip:hover {
+    display: none !important;
+}
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important; 
+    box-shadow: none !important;
+}
+</style></div>
+            <div class="text-center my-auto copyright" style="padding-top: 10px;"><span style="color: rgb(85,85,85);">Copyright © Verswift 2020</span></div>
+            <div class="text-center my-auto copyright" style="padding-top: 10px;"><span><a href="https://verswift.com/privacy-policy" style="margin: 10px;">Privacy Policy</a><a href="https://verswift.com/terms-and-conditions" style="margin: 10px;">Terms and Conditions</a></span></div>
+        </div><script>
+// Check compatibility for the browser we're running this in
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("Verswift active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("serviceworker.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("Verswift Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+</script></div>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/apps/bookmark-cards.js"></script>
+    <script src="assets/js/apps/calculator.js"></script>
+    <script src="assets/js/apps/password-generator.js"></script>
+    <script src="assets/js/apps/random-number.js"></script>
+    <script src="assets/js/apps/spotify-preview.js"></script>
+    <script src="assets/js/apps/text-faces.js"></script>
+    <script src="assets/js/serviceworker.js"></script>
 </body>
+
 </html>
